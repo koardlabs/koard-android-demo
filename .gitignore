@@ -1,0 +1,22 @@
+*.iml
+.gradle
+/local.properties
+bleu-merchant-sdk-android/
+demo/build.gradle.kts
+# Files for the ART/Dalvik VM
+*.dex
+*.zip
+# Java class files
+*.class
+
+# Generated files
+build/
+
+.kotlin
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties

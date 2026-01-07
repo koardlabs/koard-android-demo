@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Koard Demo</string>
+
+    <!-- Main Screen -->
+    <string name="brand_name">KOARD</string>
+    <string name="logout">Logout</string>
+    <string name="authenticate_merchant">Log in</string>
+    <string name="select_location">Select Location</string>
+    <string name="enroll_device">Enroll Device</string>
+    <string name="kernel_section_title">Visa Kernel</string>
+    <string name="kernel_status_installed">Kernel app installed</string>
+    <string name="kernel_status_missing">Kernel app not installed</string>
+    <string name="kernel_status_not_checked">Status not checked yet.</string>
+    <string name="kernel_status_checking">Checking kernel status…</string>
+    <string name="kernel_status_installed_detail">Visa kernel detected. You are ready to enroll.</string>
+    <string name="kernel_status_missing_detail">Install the Visa kernel and enable Play Protect to continue.</string>
+    <string name="kernel_status_error">Unable to check kernel status. Try again.</string>
+    <string name="kernel_status_refreshing">Refreshing device certificates…</string>
+    <string name="kernel_status_refresh_success">Device certificates refreshed successfully.</string>
+    <string name="kernel_status_refresh_error">Failed to refresh device certificates.</string>
+    <string name="install_kernel_app">Install kernel app</string>
+    <string name="refresh_kernel_status">Refresh status</string>
+    <string name="enroll_status_default">No enrollment attempts yet.</string>
+    <string name="enroll_failed_generic">Failed to enroll device.</string>
+    <string name="start_thin_client">Start Thin Client</string>
+    <string name="start_thin_client_error">Failed to start the thin client.</string>
+    <string name="process_sample_transaction">Process Sample Transaction</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="selected">Selected</string>
+
+    <!-- Navigation & Actions -->
+    <string name="back">Back</string>
+    <string name="refresh">Refresh</string>
+    <string name="cancel">Cancel</string>
+    <string name="refund">Refund</string>
+    <string name="send">Send</string>
+    <string name="send_email">Send Email</string>
+    <string name="send_sms">Send SMS</string>
+
+    <!-- Transaction Flow -->
+    <string name="process_transaction">Process Transaction</string>
+    <string name="transaction_flow">Transaction Flow</string>
+    <string name="transaction_flow_instructions">Enter an amount and tap Start Transaction to launch a Visa transaction from this demo app.</string>
+    <string name="transaction_amount_label">Amount</string>
+    <string name="transaction_amount_hint">e.g. 10.00</string>
+    <string name="transaction_start_button">Start Transaction</string>
+    <string name="transaction_payment_type_value">Payment Type: %1$s</string>
+    <string name="transaction_progress_label">Transaction in progress…</string>
+    <string name="transaction_status_updates_title">Status Updates</string>
+    <string name="transaction_result_title">Result</string>
+    <string name="transaction_result_status">Status: %1$s</string>
+    <string name="transaction_result_id">Transaction ID: %1$s</string>
+    <string name="transaction_result_receipt">Receipt: %1$s</string>
+    <string name="transaction_error_missing_amount">Enter an amount before starting the transaction.</string>
+    <string name="transaction_activity_missing">Unable to start the transaction without an Activity context.</string>
+    <string name="transaction_failure_generic">Transaction failed. Review the status details and try again.</string>
+    <string name="transaction_generic_error">Unable to start the transaction. Try again.</string>
+    <string name="transaction_final_status_approve">Approved</string>
+    <string name="transaction_final_status_abort">Aborted</string>
+    <string name="transaction_final_status_decline">Declined</string>
+    <string name="transaction_final_status_failure">Failed</string>
+    <string name="transaction_final_status_alt_service">Alternate Service</string>
+    <string name="tab_history">History</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Transaction History -->
+    <string name="error">Error</string>
+    <string name="no_transactions">No Transactions</string>
+    <string name="no_transaction_history_available">No transaction history available</string>
+    <string name="amount_label">Amount: $%s</string>
+
+    <!-- Transaction Details - Section Titles -->
+    <string name="transaction_details">Transaction Details</string>
+    <string name="overview">Overview</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="processing_details">Processing Details</string>
+    <string name="location_and_device">Location &amp; Device</string>
+
+    <!-- Transaction Details - Field Labels -->
+    <string name="transaction_id">Transaction ID</string>
+    <string name="transaction_id_label">ID: %s</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="amount">Amount</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="status">Status</string>
+    <string name="date">Date</string>
+    <string name="merchant">Merchant</string>
+    <string name="card">Card</string>
+    <string name="card_brand">Card Brand</string>
+    <string name="card_type">Card Type</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="subtotal_amount">Subtotal Amount</string>
+    <string name="tax">Tax</string>
+    <string name="tax_amount">Tax Amount</string>
+    <string name="tip">Tip</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="surcharge">Surcharge</string>
+    <string name="surcharge_amount">Surcharge Amount</string>
+    <string name="refunded">Refunded</string>
+    <string name="reversed">Reversed</string>
+    <string name="gateway">Gateway</string>
+    <string name="processor">Processor</string>
+    <string name="approval_code">Approval Code</string>
+    <string name="response_code">Response Code</string>
+    <string name="response_message">Response Message</string>
+    <string name="gateway_response">Gateway Response</string>
+    <string name="status_reason">Status Reason</string>
+    <string name="location_id">Location ID</string>
+    <string name="device_id">Device ID</string>
+
+    <!-- Transaction Details - Dialogs -->
+    <string name="refund_confirmation">Refund %s ?</string>
+    <string name="receipt_prompt">Would you like to get a receipt?</string>
+
+    <!-- Transaction Types -->
+    <string name="transaction_type_sale">Sale</string>
+    <string name="transaction_type_keyed_sale">Keyed Sale</string>
+    <string name="transaction_type_auth">Auth</string>
+    <string name="transaction_type_capture">Capture</string>
+    <string name="transaction_type_refund">Refund</string>
+    <string name="transaction_type_reverse">Reverse</string>
+    <string name="transaction_type_tip_adjust">Tip Adjust</string>
+    <string name="transaction_type_incremental_auth">Incremental Auth</string>
+    <string name="transaction_type_verification">Verification</string>
+    <string name="transaction_type_unknown">Unknown</string>
+
+    <!-- Receipt Input Fields -->
+    <string name="email_address">Email Address</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_phone_number">Enter phone number</string>
+
+    <!-- Error Messages -->
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="transaction_not_found">Transaction not found</string>
+    <string name="failed_to_load_transaction">Failed to load transaction: %s</string>
+    <string name="refund_failed">Refund failed</string>
+    <string name="failed_to_process_refund">Failed to process refund: %s</string>
+    <string name="failed_to_send_receipt">Failed to send receipt: %s</string>
+    <string name="failed_to_load_transactions">Failed to load transactions: %s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_enrollment_header">Enrollment Details</string>
+    <string name="settings_enrollment_refresh">Refresh Enrollment Info</string>
+    <string name="settings_no_enrollment">No enrollment details stored yet.</string>
+    <string name="settings_label_vac_device_id">VAC Device ID</string>
+    <string name="settings_label_transaction_types">Transaction Types</string>
+    <string name="settings_label_currency_codes">Currency Codes</string>
+    <string name="settings_label_country_codes">Country Codes</string>
+    <string name="settings_label_supported_buttons">Supported Buttons</string>
+    <string name="settings_label_supported_services">Supported Additional Services</string>
+    <string name="settings_label_supported_details">Supported Additional Details</string>
+    <string name="settings_label_supported_countries">Supported Countries</string>
+    <string name="settings_label_supported_languages">Supported Languages</string>
+    <string name="settings_label_checksums">Checksums</string>
+    <string name="settings_label_extras">Extras</string>
+    <string name="settings_label_status_code">Status Code</string>
+    <string name="settings_value_none">None</string>
+    <string name="settings_value_unknown">Unknown</string>
+    <string name="settings_transaction_config_header">Transaction Config</string>
+    <string name="settings_transaction_config_empty">No transaction config available.</string>
+    <string name="settings_transaction_config_error">Unable to fetch transaction config.</string>
+</resources>
